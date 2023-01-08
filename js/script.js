@@ -15,6 +15,7 @@ container.addEventListener('mousemove',(e)=>{
     let axisX = ((window.innerWidth/2) - e.pageX) /10
     let axisY = ((window.innerHeight/2) - e.pageY) /10
     card.style.transform = `rotateX(${axisY}deg) rotateY(${axisX}deg)`;
+    card.style.padding = `1rem`
 
     checkout.style.transform = `perspective(500px)  translateZ(150px)`
     sniker.style.transform = `perspective(500px) translateZ(150px) rotateZ(-45deg)`

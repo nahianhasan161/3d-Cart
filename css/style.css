@@ -20,7 +20,7 @@
 
 body{
    
-    
+    transform-style: preserve-3d;
     font-family: "Poppins" ,  sans-serif;
     min-height: 100vh;
     display: flex;
@@ -42,7 +42,7 @@ display: flex;
 }
 
 .card{
-    transform-style: preserve-3d;
+    
     min-height: 80vh;
     width: 35rem;
    /*  background: peachpuff; */
@@ -94,7 +94,9 @@ display: flex;
 .sizes button:hover{
     background: #585858;
     color: #fff;
+    
 }
+
 
  .checkout{
     margin-top: 1rem;
